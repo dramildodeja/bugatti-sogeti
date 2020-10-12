@@ -27,16 +27,15 @@
                 <div class="input-field">
                     <form ng-submit="getResponse()">
                         <h4>{{title}}</h4>
-                        <p class="flow-text center">Type in any hashtag or keyword and press enter to visualize <a target="_blank" href="http://www.twitter.com">Twitter</a> data.</p>
                         <i class="material-icons prefix">#</i>
-                        <input data-intro="Enter in the any twitter hashtag here" data-position="right" type="text" id="tag-input" placeholder="Enter in a hashtag here" ng-model="searchInput"/>
+                        <input placeholder="Type in any hashtag or keyword and press enter to visualize" data-intro="Enter in the any twitter hashtag here" data-position="right" type="text" id="tag-input" placeholder="Enter in a hashtag here" ng-model="searchInput"/>
                     </form>
-                    <canvas data-intro="See the twitter data visualization here" data-position="left" id="tweet-chart"></canvas>
+                    <canvas ng-if="searchInput" data-intro="See the twitter data visualization here" data-position="left" id="tweet-chart"></canvas>
                 </div>
             </div>
         </div>
-        <span ng-if="tweets">
-            <h4 class="flow-text">Resulted Tweets... (Sorted from Negative to Postive)</h4>
+        <span ng-if="tweets && searchInput">
+            <h5 class="flow-text">Resulted Tweets... (Sorted from Negative to Postive)</h5>
             <div ng-repeat="data in tweets track by $index" class="card card-shadow">
                 <div class="card-content black-text">
                     <p>{{data}}</p>
