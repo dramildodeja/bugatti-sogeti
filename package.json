@@ -4,7 +4,7 @@
   "description": "Real time data analyzer",
   "main": "index.js",
   "scripts": {
-    "test": "",
+    "test": "./node_modules/.bin/jasmine-node spec",
     "start": "node app.js"
   },
   "repository": {
