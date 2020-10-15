@@ -18,7 +18,8 @@
     "dotenv": "^4.0.0",
     "express": "^4.15.0",
     "sentiment": "^3.0.1",
-    "twitter": "^1.7.0"
+    "twitter": "^1.7.0",
+    "googleapis": "^61.0.0"
   },
   "devDependencies": {
     "jasmine-core": "^2.2.0",
