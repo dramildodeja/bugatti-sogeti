@@ -11,7 +11,7 @@ var youtube = function () {
                 key: process.env.YOUTUBE_TOKEN,
                 part: 'snippet',
                 videoId: vid,
-                maxResults: '100',
+                maxResults: '50',
             }, function (error, comments, response) {
                 var youtubeData = [];
                 var sortedYoutubeData = [];
