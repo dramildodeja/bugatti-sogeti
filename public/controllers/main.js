@@ -1,5 +1,5 @@
 app.controller("main-ctrl", ["$scope", "$http", function ($scope, $http) {
-    $scope.title = "Realtime Data Analyzer";
+    $scope.title = "SearchOps";
        $scope.getResponseFromTwitter = function () {
            $http.get("/results/" + $scope.searchInput).then(function (data) {
                var twitterData = data.data;
