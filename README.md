@@ -1,2 +1,2 @@
 # bugatti-sogeti
-real time data analyzer
+SearchOps Tool
