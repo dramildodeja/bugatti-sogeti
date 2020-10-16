@@ -21,5 +21,5 @@ app.get('/results/youtube/:query', function (req, res) {
 });
 var port = process.env.PORT || 3000;
 app.listen(port, function () {
-    console.log("Real time data analyzer is online on port " + port);
+    console.log("SearchOps is online on port " + port);
 });
