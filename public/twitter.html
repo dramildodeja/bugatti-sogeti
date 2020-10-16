@@ -28,8 +28,7 @@
                 <div class="input-field">
                     <form ng-submit="getResponseFromTwitter()">
                         <h4><a href="index.html">{{title}}</a></h4>
-                        <i class="material-icons prefix">#</i>
-                        <input width="50" placeholder="Type in any hashtag or keyword and press enter to visualize" data-intro="Enter in the any twitter hashtag here" data-position="right" type="text" id="tag-input" placeholder="Enter in a hashtag here" ng-model="searchInput"/>
+                        <input style="text-a:lign: center;" width="50" placeholder="Type in any hashtag or keyword and press enter to visualize" data-intro="Enter in the any twitter hashtag here" data-position="right" type="text" id="tag-input" placeholder="Enter in a hashtag here" ng-model="searchInput"/>
                     </form>
                     <canvas ng-if="searchInput" data-intro="See the twitter data visualization here" data-position="left" id="tweet-chart"></canvas>
                 </div>
