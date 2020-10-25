@@ -21,6 +21,7 @@
     "twitter": "^1.7.0",
     "googleapis": "^61.0.0",
     "jasmine-core": "^2.2.0",
+    "jasmine-node": "3.0.0",
     "karma": "^0.12.31",
     "karma-chrome-launcher": "^0.1.7",
     "karma-jasmine": "^0.3.5"
