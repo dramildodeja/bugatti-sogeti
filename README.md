@@ -1,4 +1,1 @@
-# bugatti-sogeti
-SearchOps Tool
-
-A SAAS solution and comes with a simple & fast User Interface which processes high volume of data with minimum delay, high accuracy and consistency to generate an Opinion Score classifying in “Very Negative, Negative, Neutral, Positive, and Very Positive” categories, respectively
+A SAAS solution comes with a simple & fast user interface that processes a high volume of data with minimum delay, high accuracy, and consistency to generate an Opinion Score classifying in “Very Negative, Negative, Neutral, Positive, and Very Positive” categories. Currently, the tool integrates with platforms like Twitter (X) & Youtube, which could be scaled to connect various other platforms.
